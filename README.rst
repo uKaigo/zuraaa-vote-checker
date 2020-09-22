@@ -4,6 +4,17 @@ Zuraaa Vote Checker
 
 Uma forma não oficial de verificar quando alguem votou no seu bot.
 
+Instalação
+----------
+
+**É necessário Python 3.6 ou superior.**
+
+A instalação pode ser feita via PyPI. Basta executar o seguinte comando:
+
+.. code :: sh
+
+    python -m pip install zuraaa-vote-checker    
+
 Modo de usar
 ------------
 
