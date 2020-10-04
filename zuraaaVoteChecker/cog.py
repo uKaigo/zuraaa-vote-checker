@@ -36,7 +36,7 @@ class ZuraaaVoteChecker(Cog):
 
             user = self.__bot.get_user(int(user_id))
 
-            await self.__bot.dispatch('zuraaa_vote', user)
+            self.__bot.dispatch('zuraaa_vote', user)
 
     @Cog.listener()
     async def on_zuraaa_vote(self, _):
