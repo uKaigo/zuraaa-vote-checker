@@ -7,7 +7,7 @@ Uma forma não oficial de verificar quando alguem votou no seu bot.
 Instalação
 ----------
 
-**É necessário Python 3.6 ou superior.**
+**É necessário Python 3.5.3 ou superior.**
 
 A instalação pode ser feita via PyPI. Basta executar o seguinte comando:
 

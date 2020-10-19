@@ -32,9 +32,12 @@ class ZuraaaVoteChecker(Cog):
         match = self.__compiled_re.search(message.content)
 
         if match:
-            user_id = match.group(1)
+            user_id = int(match.group(1))
 
-            user = self.__bot.get_user(int(user_id))
+            user = self.__bot.get_user(user_id)
+
+            if not user:
+                user = await self.__bot.fetch_user(user_id)
 
             self.__bot.dispatch('zuraaa_vote', user)
 
