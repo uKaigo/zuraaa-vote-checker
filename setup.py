@@ -30,7 +30,6 @@ setup(
     packages=find_packages(),
 
     install_requires=_open('requirements.txt'),
-    python_requires='>=3.5.3',
 
     include_package_data=True,
 
@@ -45,5 +44,5 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Topic :: Internet',
         'Topic :: Utilities',
-      ]
+    ]
 )

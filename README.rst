@@ -2,6 +2,8 @@
 Zuraaa Vote Checker
 ===================
 
+    **NOTA:** Descontinuado pois o #site-logs não está mais público.
+
 Uma forma não oficial de verificar quando alguem votou no seu bot.
 
 Instalação
